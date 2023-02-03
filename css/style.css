@@ -73,3 +73,10 @@ align content serve a gestire lo spazio attorno alle righe che si formano tramit
 flexbasis imposta la dimensione base di un flex item e lo gestisce in modo dinamico, è legato al main axis
 Si da ai figli NON ai genitori.
 Flex basis guarda la direzione del nostro flex (flex row o flex column)
+
+flexgrow permette di distribuire spazio libero asegnandolo ai figli
+flex-grow: 1 prende il 100% dello spazio libero disponibile
+flex-shrink è fattore di riduzione, si può settare quanto si deve stringere un elemento e dichiarare la priorità 
+
+order si applica ai flex items (figli) e definisce l'ordine degli elementi
+order: 3 sposta l'elemento alla fine (di 3)
