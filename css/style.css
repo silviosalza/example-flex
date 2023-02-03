@@ -66,4 +66,10 @@ COn la proprietà justify content possiamo posizionare gli elementi sul MAIN AXI
 posso mettere flex direction column or row reverse, scambia gli elementi
 
 
+flexwrap sposta sulla successiva riga gli elementi se non stanno sulla 
+stessa riga (li schiaccerebbe sennò)
+align content serve a gestire lo spazio attorno alle righe che si formano tramite flexwrap:wrap
 
+flexbasis imposta la dimensione base di un flex item e lo gestisce in modo dinamico, è legato al main axis
+Si da ai figli NON ai genitori.
+Flex basis guarda la direzione del nostro flex (flex row o flex column)
