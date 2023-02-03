@@ -1,0 +1,69 @@
+/* FLEX */
+
+/* è una modalità di layout che prevede la disposizione degli elementi in manieram molto flessibile
+Si adatta a schermi e dispositivi diversi
+FLEX è UNA PROPRIETA' DI UN GENITORE, ed ereditata da tutti i figli diretti, NON i nipoti */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+.wrapper{
+    border: solid black;
+    min-height: 500px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+
+/* abbiamo messo in flex tutti i figli di flex container = affianca tutti i figli diretti */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* possiamo disporli sia in vert che oriz, e possiamo adattare dimensione
+abbiamo due assi, il principale è main axis, orizzontale, poi cross axis (secondario) è il :vertical
+flex-direction: row (è di default)
+
+oppure invertiamo gli assi (secondario è orizz, main vertic)
+flex-direction column */
+
+/* Possiamo decidere dimensione degli assi (main size e cross size)
+
+
+COn la proprietà justify content possiamo posizionare gli elementi sul MAIN AXIS */
+
+.justify-content{
+    justify-content:center ;  
+
+}
+
+/* non li posiziona singolarmente, ma gestisce lo spazio tra gli elementi e la posizione di tutti e tre insieme */
+
+/* proprietà align items viene applicato sulla cross axis */
+
+/* .align-items{
+    align-items: flex end;  gli elementi sono spostati in basso lungo cross axis
+} */
+
+posso mettere flex direction column or row reverse, scambia gli elementi
+
+
+
